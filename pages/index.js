@@ -18,13 +18,12 @@ export default function Home() {
         </p>
 
         <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="https://nextjs.org/docs" className="card SweetPotato">
+            <h3>Sweet Potato &rarr;</h3>
           </a>
 
           <a href="https://nextjs.org/learn" className="card">
-            <h3>Learn &rarr;</h3>
+            <h3>Pumpkin Spice Latte &rarr;</h3>
             <p>Learn about Next.js in an interactive course with quizzes!</p>
           </a>
 
@@ -32,7 +31,7 @@ export default function Home() {
             href="https://github.com/vercel/next.js/tree/master/examples"
             className="card"
           >
-            <h3>Examples &rarr;</h3>
+            <h3>Oreo &rarr;</h3>
             <p>Discover and deploy boilerplate example Next.js projects.</p>
           </a>
 
@@ -40,7 +39,7 @@ export default function Home() {
             href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className="card"
           >
-            <h3>Deploy &rarr;</h3>
+            <h3>Birthday Cake &rarr;</h3>
             <p>
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
@@ -144,12 +143,20 @@ export default function Home() {
           justify-content: center;
           flex-wrap: wrap;
 
-          max-width: 800px;
+          max-width: 1300px;
           margin-top: 3rem;
+        }
+
+        .SweetPotato {
+          background-image: url(/sweet_potato.png);
+          background-position: center;
+          background-size: cover;
         }
 
         .card {
           margin: 1rem;
+          width: 570px;
+          height: 490px;
           flex-basis: 45%;
           padding: 1.5rem;
           text-align: left;
