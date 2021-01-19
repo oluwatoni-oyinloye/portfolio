@@ -22,11 +22,10 @@ export default function Home() {
             <h3>Sweet Potato &rarr;</h3>
           </a>
 
-<<<<<<< HEAD
-          <a href="https://nextjs.org/learn" className="card">
-=======
+       
+
           <a href="https://nextjs.org/learn" className="card PumpkinSpiceLate">
->>>>>>> toni_branch
+
             <h3>Pumpkin Spice Latte &rarr;</h3>
             <p>Learn about Next.js in an interactive course with quizzes!</p>
           </a>
@@ -156,8 +155,7 @@ export default function Home() {
           background-size: cover;
         }
 
-<<<<<<< HEAD
-=======
+
         .PumpkinSpiceLate {
           background-image: url(/PumpkinSpiceLate.png);
           background-position: center;
@@ -176,7 +174,6 @@ export default function Home() {
           background-size: cover;
         }
 
->>>>>>> toni_branch
         .card {
           margin: 1rem;
           width: 570px;
