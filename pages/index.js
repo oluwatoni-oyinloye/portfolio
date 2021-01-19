@@ -10,7 +10,7 @@ export default function Home() {
 
       <main>
         <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Cloudy<a href="https://nextjs.org">Donuts</a>
         </h1>
 
         <p className="description">
@@ -22,14 +22,17 @@ export default function Home() {
             <h3>Sweet Potato &rarr;</h3>
           </a>
 
+<<<<<<< HEAD
           <a href="https://nextjs.org/learn" className="card">
+=======
+          <a href="https://nextjs.org/learn" className="card PumpkinSpiceLate">
+>>>>>>> toni_branch
             <h3>Pumpkin Spice Latte &rarr;</h3>
             <p>Learn about Next.js in an interactive course with quizzes!</p>
           </a>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="card"
+          <a href="https://github.com/vercel/next.js/tree/master/examples"
+            className="card Oreo"
           >
             <h3>Oreo &rarr;</h3>
             <p>Discover and deploy boilerplate example Next.js projects.</p>
@@ -37,7 +40,7 @@ export default function Home() {
 
           <a
             href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="card"
+            className="card BirthdayCake"
           >
             <h3>Birthday Cake &rarr;</h3>
             <p>
@@ -153,6 +156,27 @@ export default function Home() {
           background-size: cover;
         }
 
+<<<<<<< HEAD
+=======
+        .PumpkinSpiceLate {
+          background-image: url(/PumpkinSpiceLate.png);
+          background-position: center;
+          background-size: cover;
+        }
+
+        .Oreo {
+          background-image: url(/oreo.png);
+          background-position: center;
+          background-size: cover;
+        }
+
+        .BirthdayCake {
+          background-image: url(/BirthdayCake.png);
+          background-position: center;
+          background-size: cover;
+        }
+
+>>>>>>> toni_branch
         .card {
           margin: 1rem;
           width: 570px;
