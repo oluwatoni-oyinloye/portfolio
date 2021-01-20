@@ -1,12 +1,9 @@
-import Head from 'next/head'
 
-export default function Home() {
-  return (
+import Layout from "../components/Layout";
+
+const Index = () => (
+  <Layout>
     <div className="container">
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
 
       <main>
         <h1 className="title">
@@ -47,18 +44,7 @@ export default function Home() {
             </p>
           </a>
         </div>
-      </main>
-
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
-        </a>
-      </footer>
+      </main> 
 
       <style jsx>{`
         .container {
@@ -233,5 +219,7 @@ export default function Home() {
         }
       `}</style>
     </div>
-  )
-}
+  </Layout>
+  );
+
+  export default Index;
