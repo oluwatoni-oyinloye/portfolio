@@ -1,6 +1,7 @@
 // components/Layout.js
 
 import Header from "./Header";
+
 import NavBar from "./Footer";
 
 const layoutStyle = {
