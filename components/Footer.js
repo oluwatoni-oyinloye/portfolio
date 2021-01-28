@@ -66,7 +66,7 @@ Sunday  10AM–3PM </span> </p>
 
 
    
-    <p  className= 'cc'> © 2021 React.JS/Next.JS by Matthey Hood & Oluwatoni Oyinloye  </p>
+    <p  className= 'cc'> © 2021 React.JS/Next.JS by Matthew Hood & Oluwatoni Oyinloye  </p>
     <p className="footerTitle"> </p>
 
       <style jsx>{`
