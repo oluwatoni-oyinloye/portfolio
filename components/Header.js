@@ -26,7 +26,7 @@ const Header = () => (
     <img src="/CD_Logo.png" alt="Cloudy Donuts Logo" className="logo" />
     <div className="MenuBar">
     	<ul className="menu">
-    		<li><a href=""><FontAwesomeIcon icon={faHome} /></a></li>
+    		<li><a href="/"><FontAwesomeIcon icon={faHome} /></a></li>
     		<li><a href="menu">Menu</a></li>
     		<li><a href="location">Locations & Hours</a></li>
     		<li><a href="contact">Contact Us</a></li>
