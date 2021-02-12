@@ -18,7 +18,7 @@ library.add(
   )
 
 const footerStyle = {
-  backgroundColor: 'black',
+  backgroundColor: '#242323',
   color: "white",
   width: "100%",
   height: "230px" 
@@ -67,7 +67,6 @@ Sunday  10AM–3PM </span> </p>
 
    
     <p  className= 'cc'> © 2021 React.JS/Next.JS by Matthew Hood & Oluwatoni Oyinloye  </p>
-    <p className="footerTitle"> </p>
 
       <style jsx>{`
         .footerTitle {
