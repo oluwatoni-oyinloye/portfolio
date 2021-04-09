@@ -1,6 +1,5 @@
 
 import Layout from "../components/Layout";
-import Carousel from "../components/Carousel"
 // import the library
 import { library } from '@fortawesome/fontawesome-svg-core';
 
@@ -10,59 +9,19 @@ import { faCode, faHighlighter } from '@fortawesome/free-solid-svg-icons';
 
 const Index = () => (
   <Layout>
-
-    <Carousel />
-
     <div className="container">
 
       <main>
+
+
         <div className="grid">
+          </div>
 
-          <a className="card DonutCard1">
-            <h3 className="DonutTitle">VEGAN</h3>
-            <p className="DonutText"></p>
-          </a>
-
-          <a className="card DonutCard2">
-            <h3 className="DonutTitle">HANDMADE</h3>
-            <p className="DonutText"></p>
-          </a>
-
-          <a className="card DonutCard3">
-            <h3 className="DonutTitle">SMALL BATCH</h3>
-            <p className="DonutText"></p>
-          </a>
-
-          <a className="card DonutCard4">
-            <h3 className="DonutTitle">FOUR DOLLARS</h3>
-            <p className="DonutText"></p>
-          </a>
-
-        </div>
       </main> 
 
       <style jsx>{`
-       @font-face { 
-        font-family:'Dosis';
-        src:url('/Dosis-Bold.ttf');
-        src:url('/Dosis-ExtraBold.ttf');
-        src:url('/Dosis-ExtraLight.ttf');
-        src:url('/Dosis-Light.ttf');
-        src:url('/Dosis-Medium.ttf');
-        src:url('/Dosis-Regular.ttf');
-        src:url('/Dosis-SemiBold.ttf');
-
-
-
-       }
-
-      * {
-        font-family:'Dosis';
-      }
-
         .container {
           min-height: 100vh;
-          max-width: 1500px;
           padding: 0 0.5rem;
           display: flex;
           flex-direction: column;
@@ -71,7 +30,7 @@ const Index = () => (
         }
 
         main {
-          padding: 1rem 0;
+          padding: 5rem 0;
           flex: 1;
           display: flex;
           flex-direction: column;
@@ -146,69 +105,64 @@ const Index = () => (
           flex-wrap: wrap;
 
           max-width: 1300px;
-          margin: 1rem 0;
+          margin-top: 3rem;
         }
 
-        .DonutTitle {
-          position: absolute;
-          color: black;
-          top: 30%;
-          left: 10%;
-          font-size: 40px;
-          font-weight: bold;
-        }
-
-        .DonutText {
-          position: absolute;
-          color: black;
-          top: 40%;
-          left: 12%;
-          font-size: 22px;
-        }
-
-        .DonutCard1 {
-          background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url(/donutCard1.jpg);
-          background-position: center;
-          background-size: cover;
-
-        }
-
-        .DonutCard2 {
-          background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url(/donutCard2.jpg);
-          background-position: top;
-          background-size: cover;
-        }
-
-        .DonutCard3 {
-          background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url(/donutCard3.jpg);
+        .SweetPotato {
+          background-image: url(/sweet_potato.png);
           background-position: center;
           background-size: cover;
         }
 
-        .DonutCard4 {
-          background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url(/donutCard4.jpg);
-          background-position: bottom;
+
+        .PumpkinSpiceLate {
+          background-image: url(/PumpkinSpiceLate.png);
+          background-position: center;
+          background-size: cover;
+        }
+
+        .Oreo {
+          background-image: url(/oreo.png);
+          background-position: center;
+          background-size: cover;
+        }
+
+        .BirthdayCake {
+          background-image: url(/BirthdayCake.png);
+          background-position: center;
           background-size: cover;
         }
 
         .card {
-          margin: .25rem;
-          width: 525px;
-          height: 525px;
+          margin: 1rem;\
+          width: 570px;
+          height: 490px;
           flex-basis: 45%;
-          padding: .25rem;
+          padding: 1.5rem;
           text-align: left;
           color: inherit;
           text-decoration: none;
           border: 1px solid #eaeaea;
-          border-radius: 0px;
+          border-radius: 10px;
           transition: color 0.15s ease, border-color 0.15s ease;
         }
 
         .card:hover,
         .card:focus,
         .card:active {
+          color: #0070f3;
+          border-color: #0070f3;
+        }
 
+        .card h3 {
+          margin: 0 0 1rem 0;
+          font-size: 1.5rem;
+        }
+
+        .card p {
+          margin: 0;
+          font-size: 1.25rem;
+          line-height: 1.5;
         }
 
         .logo {

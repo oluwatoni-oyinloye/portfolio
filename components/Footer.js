@@ -33,40 +33,15 @@ const Footer = () => (
 
 
    <div className="footerMenu">
-   <p className="contact">  CONTACT US <br /> <br /> <span> (443) 885-9052  <br /> <a href="mailto:info@homemaidbrunch.com"> info@homemaidbrunch.com </a> </span> </p>
-   <p className="adress">  ADDRESS <br /> <br /> <span> 4311 Harford Rd <br />   Baltimore, MD 21214 </span> </p>
-   <p className="hours">  HOURS <br /> <br /> <span> Friday  10AM–3PM <br /> 
-Saturday  10AM–3PM <br />
-Sunday  10AM–3PM </span> </p>
+  
    </div>
 
 
- <ul className = "fontawesome" >
-   <li>
-
-   <a href = "https://www.instagram.com/cloudy_donuts/?hl=en">
-  <FontAwesomeIcon icon={faInstagram} />
-  </a>
-  </li>
-   
-   <li>
-   <a href ="https://www.facebook.com/CloudyDonutCo/"> 
-  <FontAwesomeIcon icon={faFacebookF} />
-  </a>
-  </li>
-  
-  <li>
-  <a href= "https://twitter.com/homemaidbrunch">
-  <FontAwesomeIcon icon={faTwitter} />
-  </a>
-  </li>
-  </ul>
- 
 
 
 
    
-    <p  className= 'cc'> © 2021 React.JS/Next.JS by Matthew Hood & Oluwatoni Oyinloye  </p>
+    <p  className= 'cc'> © 2021 React.JS/Next.JS by Oluwatoni Oyinloye </p>
 
       <style jsx>{`
         .footerTitle {
@@ -164,8 +139,6 @@ Sunday  10AM–3PM </span> </p>
     }
 
     .cc{
-      padding-bottom: 5px;
-      padding-top: 5px;
       font-size: 12px;
       font-family:'Dosis';
     }

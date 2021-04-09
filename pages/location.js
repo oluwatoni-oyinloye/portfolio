@@ -14,14 +14,12 @@ const location = () => (
           
             <div className="card1 localDonuts">
             <div className="layer">
-            <p className="donutTitle"> LAURAVILLE </p>
-            <ul className="donutText">
-            <li className=""> 4311 Harford Rd  </li>
-            <li className=""> Baltimore, MD 21214 </li>
+            <h2 className="donutTitle"> LAURAVILLE </h2>
 
-            <li className=""> FRIDAY 10AM–3PM  </li>
-            <li className=""> SATURDAY 10AM–3PM  </li>
-            <li className=""> SUNDAY 10AM–3PM  </li>
+            <ul className="donutText">
+            <li className=""> 4311 HARFORD rd  </li>
+            <li className=""> BALTIMORE, MD 21214 </li>
+
 
 
             </ul>
@@ -94,19 +92,23 @@ const location = () => (
 
 
         .donutTitle{
-          font-size:65px;
+          font-size:75px;
+          font-weight:bold;
           color: #fdf5e6;
           font-weight:bold;
           position:absolute;
+          font-family:dosis;
           left:13%;
-          top:7%;
+          top:0%;
+
 
         
         }
 
         .donutText{
-          font-size:30px;
+          font-size:45px;
           font-weight:bold;
+          font-family:dosis;
           color:black;
           top:25%;
           left:13%;
